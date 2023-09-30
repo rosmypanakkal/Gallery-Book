@@ -1,0 +1,89 @@
+
+/* universal selector for starting , there is no gap between html page ang browser */
+*{
+
+margin: 0;
+padding: 0;
+font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+
+}
+
+
+
+header{
+    background-color:gold;
+    width: 100%;
+    height: 50px;
+
+}
+
+/* dident header */
+header h2{
+    color: rgb(148, 7, 99);
+    text-align: center;
+    padding: 10px;
+}
+header h2:hover{
+    color: rgb(127, 6, 113);
+}
+
+
+footer h4,p{
+    background-color:rgb(255, 235, 122);
+    width: 100%;
+    height: 30px;
+    color: rgb(148, 7, 99);
+    text-align: center;
+    
+}
+
+footer h4:hover{
+     color: rgb(44, 2, 29);
+}
+
+footer p:hover{
+    color: rgb(44, 2, 29);
+}
+
+.banner{
+    width: 100%;
+    height: 500px;
+    background-image: url('https://wallpaperaccess.com/full/1209397.jpg');
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+}
+
+.row{
+    width: 100%;
+    height: 600px;
+    display: flex;
+    background-color:palegoldenrod;
+    align-items: center;
+    justify-content: space-around;
+    color: rgb(90, 11, 70);
+}
+.col{
+    width: 200px;
+    height: 400px;
+    background-color: rgb(240, 231, 130);
+    margin-left: 10px;
+    margin-top: 5px;
+}
+   
+h5{
+    text-align: center;
+}
+
+
+button{
+    color: rgb(44, 2, 28);
+    background-color: antiquewhite;
+    margin-left: 70px;
+}
+button:hover{
+    color: rgb(44, 2, 29);
+    background-color:rgb(234, 220, 75);
+}
+
+/* media */
